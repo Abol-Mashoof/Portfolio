@@ -62,7 +62,7 @@ const Portfolios = () => {
                     textAlign="left"
                     sx={{ direction: "ltr" }}
                     gutterBottom>
-                    <EllipsisText text={port.info} length={"100"} />
+                    <EllipsisText text={port.info} length={100} />
                   </Typography>
                 </CardContent>
               </CardActionArea>

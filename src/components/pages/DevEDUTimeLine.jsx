@@ -25,12 +25,13 @@ const DevEDUTimeLine = () => {
     <Timeline position="alternate" sx={{ direction: "ltr" }}>
       {devEdu.map((item, index) => (
         <Slide
+          key={index}
           direction="up"
           in={loading}
           style={{
             transitionDelay: loading ? `${index + 1}100ms` : "0ms",
           }}>
-          <TimelineItem key={index}>
+          <TimelineItem>
             <TimelineSeparator>
               <TimelineDot
                 sx={{ borderColor: "blueviolet" }}
