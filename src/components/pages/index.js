@@ -1,0 +1,10 @@
+export { default as DevInfo } from "./DevInfo";
+export { default as TabPanell } from "./TabPanell";
+export { default as Skills } from "./Skills";
+export { default as Skill } from "./Skill";
+export { default as DevWorkCount } from "./DevWorkCount";
+export { default as DevEXPTimeLine } from "./DevEXPTimeLine";
+export { default as DevEDUTimeLine } from "./DevEDUTimeLine";
+export { default as Portfolios } from "./Portfolios";
+export { default as SliderComments } from "./SliderComments";
+export { default as ContactForm } from "./ContactForm";
