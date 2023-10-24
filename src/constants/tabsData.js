@@ -19,7 +19,7 @@ export const dataSidebar = () => {
     { label: "صفحه اصلی", icon: <BungalowRounded />, ...TabProps },
     { label: "درباره من", icon: <FaceRounded />, ...TabProps },
     { label: "رزومه من", icon: <TextSnippetRounded />, ...TabProps },
-    { label: "نمونه کارها", icon: <TerminalRounded />, ...TabProps },
+    // { label: "نمونه کارها", icon: <TerminalRounded />, ...TabProps },
     { label: "نظرات", icon: <MessageRounded />, ...TabProps },
     { label: "کانکشن", icon: <ConnectWithoutContactRounded />, ...TabProps },
   ];

@@ -64,13 +64,13 @@ function AppContainer() {
               <TabPanell pageNumber={pageNumber} index={2}>
                 <Resume helmetTitle={"صفحه شخصی | رزومه من"} />
               </TabPanell>
-              <TabPanell pageNumber={pageNumber} index={3}>
+              {/* <TabPanell pageNumber={pageNumber} index={3}>
                 <Portfolio helmetTitle={"صفحه شخصی | نمونه کارها"} />
-              </TabPanell>
-              <TabPanell pageNumber={pageNumber} index={4}>
+              </TabPanell> */}
+              <TabPanell pageNumber={pageNumber} index={3}>
                 <Comments helmetTitle={"صفحه شخصی | نظرات"} />
               </TabPanell>
-              <TabPanell pageNumber={pageNumber} index={5}>
+              <TabPanell pageNumber={pageNumber} index={4}>
                 <Contact helmetTitle={"صفحه شخصی | کانکشن"} />
               </TabPanell>
             </SwipeableViews>
