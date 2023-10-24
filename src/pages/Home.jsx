@@ -13,10 +13,10 @@ const Home = ({ helmetTitle }) => {
   const infoEl = useRef(null);
   const [index, setIndex] = useState(0);
   const strings = [
-    "توسعه دهنده ی فول استک هستم",
-    "برنامه نویس با ایده های خلاقانه هستم",
-    "فریلنسر هستم",
-    "محتواساز دنیای برنامه نویسی هستم",
+    "من توسعه دهنده ی فول استک هستم",
+    "من برنامه نویس با ایده های خلاقانه هستم",
+    "من فریلنسر هستم",
+    "من محتواساز دنیای برنامه نویسی هستم",
     "از پیاده سازی ایده های شما لذت میبرم :)",
   ];
 
@@ -91,9 +91,6 @@ const Home = ({ helmetTitle }) => {
             {strings[index % strings.length]}
           </Typography>
         </TextTransition>
-        <Typography variant="h4" color="whitesmoke" sx={{ mt: 4, mr: 1 }}>
-          من
-        </Typography>
       </Box>
     </Box>
   );

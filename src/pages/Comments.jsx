@@ -26,7 +26,6 @@ const Comments = ({ helmetTitle }) => {
           icon={<ForumRounded />}
           text="نظرات"
         />
-
         <SliderComments />
       </CardContent>
     </Card>

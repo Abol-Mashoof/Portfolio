@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import { grey } from "@mui/material/colors";
 
 const SliderComments = () => {
-
   const options = {
     dots: true,
     arrows: false,
@@ -47,6 +46,9 @@ const SliderComments = () => {
               }}>
               <Typography variant="body2" color={grey[300]} textAlign="center">
                 {user.comment}
+              </Typography>
+              <Typography variant="body1" color={grey[100]} textAlign="center">
+                {user.admin}{" "}{user.icon}
               </Typography>
             </Card>
           </Box>

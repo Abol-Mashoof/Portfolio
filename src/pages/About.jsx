@@ -57,7 +57,7 @@ const About = ({ helmetTitle }) => {
                 <DevWorkCount />
               </Grid>
 
-              <Grid xs={12} sm={8} md={9} lg={9} xl={9}>
+              <Grid xs={12} sm={8} md={9} lg={9} xl={9} sx={{ pt: 2 }}>
                 <DevInfo />
               </Grid>
             </Grid>

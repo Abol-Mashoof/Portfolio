@@ -9,7 +9,7 @@ import {
   TimelineContent,
   TimelineConnector,
 } from "@mui/lab";
-import { devEdu } from "../../constants/details";
+import { devExp } from "../../constants/details";
 const DevEXPTimeLine = () => {
   const [loading, setLoading] = useState(false);
 
@@ -22,7 +22,7 @@ const DevEXPTimeLine = () => {
   }, []);
   return (
     <Timeline position="alternate" sx={{ direction: "ltr" }}>
-      {devEdu.map((item, index) => (
+      {devExp.map((item, index) => (
         <Slide
           key={index}
           direction="up"
